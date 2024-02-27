@@ -19,7 +19,7 @@ with col1:
 
     # Calculando diferença das datas
     dia = dt.datetime.now()
-    dia_hoje = dia.strftime(r'%y/%m/%d')    
+    dia_hoje = dia.strftime(r'%d/%m/%y')    
     d1 = dt.datetime.strptime(vencimento, r'%d/%m/%y')
     d2 = dt.datetime.strptime(dia_hoje, r'%d/%m/%y')
     dias = abs((d2 - d1).days)
