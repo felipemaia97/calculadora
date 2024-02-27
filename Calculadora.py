@@ -51,7 +51,7 @@ with col1:
         text_total_juros = st.header(total_juros)
 
         novo_valor_boleto = total_juros + valor_original
-    st.write('Valor do boelto atualizado')
+    st.write('Valor do boleto atualizado')
     st.title(novo_valor_boleto)
 
     
